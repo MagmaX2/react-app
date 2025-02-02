@@ -1,0 +1,21 @@
+.box{
+    
+    background-color:#c4dada;
+    height:300px;
+    width: 500px;
+    padding: 10px;
+
+}
+
+.main{
+    text-align: justify;
+    place-items: center;
+}
+
+.main h3{
+    text-align: center;
+}
+
+.nav{
+    width: 80%;
+}
