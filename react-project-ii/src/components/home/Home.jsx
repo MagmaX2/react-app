@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 
-function Box(){
+function Box(props){
     return(
         // <div className='box'>
         // <header className='header'>
@@ -18,11 +18,11 @@ function Box(){
         <div className='box'>
             <main className='main'>
                 <div className='text-box'>
-                <h3>First box</h3>
-                <p>name:Johnmary</p>
-                <p>phone:07053944685</p>
-                <p>email:chukwudoziembadugha@gmail.com</p>
-                <p>address:Eni-njoku hostel UNN</p>
+                <h3>{props.serial} </h3>
+                <p>{props.name} </p>
+                <p>{props.phone} </p>
+                <p>{props.email} </p>
+                <p>{props.address} </p>
                 </div>
             </main>
 
